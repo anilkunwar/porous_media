@@ -30,7 +30,8 @@ def ellips2cart(r, phi, tta, a, b, c):
     return x, y, z    
 
 # Streamlit interface
-st.title("Orthotropic Permeability and Porous Resistivity Tensor Visualization")
+#st.title("Orthotropic Permeability and Porous Resistivity Tensor Visualization")
+st.title("Visualization of Orthotropic Permeability and Porous Resistivity Tensors")
 
 # User input for porosity values
 phi_x = st.sidebar.number_input("Porosity in the x-axis", min_value=0.0, max_value=1.0, step=0.01, value=0.2)
